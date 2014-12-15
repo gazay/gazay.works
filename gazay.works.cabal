@@ -11,7 +11,8 @@ cabal-version:       >=1.8
 
 executable gazay-works
   main-is:             Main.hs
-  -- other-modules:
+  hs-source-dirs:      src
+
   build-depends:       base ==4.6.*
                      , wai
                      , warp
